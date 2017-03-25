@@ -23,11 +23,11 @@ import org.openide.util.actions.Presenter;
 @ActionReference(
         path = "Toolbars/File",
         position = 0)
-public final class GoogleActionListener extends AbstractAction implements Presenter.Toolbar  {
+public final class YoutubeActionListener extends AbstractAction implements Presenter.Toolbar  {
 
     @Override
     public Component getToolbarPresenter() {
-        return new GooglePanel();
+        return new YoutubePanel();
     }
 
     @Override
